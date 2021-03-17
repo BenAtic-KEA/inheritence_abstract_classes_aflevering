@@ -17,7 +17,7 @@ public class Geometri {
 
         for(GeometricalFigure figure : figureList){
 
-            System.out.println(figure.toString());
+            System.out.println(figure);
             System.out.println("Area: " + figure.calculateArea());
             System.out.println("Perimeter " + figure.calculatePerimeter());
 
